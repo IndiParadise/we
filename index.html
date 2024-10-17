@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header with Cart Button -->
+    <header>
+        <h1>Restaurant Name</h1>
+        <img src="images/cart.png" id="cart-button" alt="Cart" onclick="goToCheckout()">
+        <span id="cart-count">0</span> <!-- Cart count display -->
+    </header>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <!-- Menu Item 1 -->
+        <div class="menu-item">
+            <img src="images/item1.jpg" alt="Dish 1">
+            <h2>Dish 1</h2>
+            <p>Delicious description of Dish 1.</p>
+            <button onclick="addToCart('Dish 1', 10.00,'images/item1.jpg' )">Buy - $10.00</button>
+        </div>
+
+        <!-- Menu Item 2 -->
+        <div class="menu-item">
+            <img src="images/item2.jpg" alt="Dish 2">
+            <h2>Dish 2</h2>
+            <p>Delicious description of Dish 2.</p>
+            <button onclick="addToCart('Dish 2', 12.00, 'images/item2.jpg')">Buy - $12.00</button>
+        </div>
+
+        <!-- Menu Item 3 -->
+        <div class="menu-item">
+            <img src="images/item3.jpg" alt="Dish 3">
+            <h2>Dish 3</h2>
+            <p>Delicious description of Dish 3.</p>
+            <button onclick="addToCart('Dish 3', 15.00,'images/item3.jpg' )">Buy - $15.00</button>
+        </div>
+
+        <!-- Menu Item 4 -->
+        <div class="menu-item">
+            <img src="images/item4.jpg" alt="Dish 4">
+            <h2>Dish 4</h2>
+            <p>Delicious description of Dish 4.</p>
+            <button onclick="addToCart('Dish 4', 8.00, 'images/item4.jpg')">Buy - $8.00</button>
+        </div>
+
+        <!-- Menu Item 5 -->
+        <div class="menu-item">
+            <img src="images/item5.jpg" alt="Dish 5">
+            <h2>Dish 5</h2>
+            <p>Delicious description of Dish 5.</p>
+            <button onclick="addToCart('Dish 5', 20.00, 'images/item5.jpg')">Buy - $20.00</button>
+        </div>
+
+        <!-- Menu Item 6 -->
+        <div class="menu-item">
+            <img src="images/item6.jpg" alt="Dish 6">
+            <h2>Dish 6</h2>
+            <p>Delicious description of Dish 6.</p>
+            <button onclick="addToCart('Dish 6', 18.00, 'images/item6.jpg')">Buy - $18.00</button>
+        </div>
+
+        <!-- Menu Item 7 -->
+        <div class="menu-item">
+            <img src="images/item7.jpg" alt="Dish 7">
+            <h2>Dish 7</h2>
+            <p>Delicious description of Dish 7.</p>
+            <button onclick="addToCart('Dish 7', 25.00,'images/item7.jpg' )">Buy - $25.00</button>
+        </div>
+
+        <!-- Menu Item 8 -->
+        <div class="menu-item">
+            <img src="images/item8.jpg" alt="Dish 8">
+            <h2>Dish 8</h2>
+            <p>Delicious description of Dish 8.</p>
+            <button onclick="addToCart('Dish 8', 9.00, 'images/item8.jpg')">Buy - $9.00</button>
+        </div>
+
+        <!-- Menu Item 9 -->
+        <div class="menu-item">
+            <img src="images/item9.jpg" alt="Dish 9">
+            <h2>Dish 9</h2>
+            <p>Delicious description of Dish 9.</p>
+            <button onclick="addToCart('Dish 9', 30.00, 'images/item9.jpg')">Buy - $30.00</button>
+        </div>
+
+       
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
